@@ -1,8 +1,8 @@
 ## Description
-- asda
+- These are tutorial projects from the graduate course Practical Statistics for Physics and Astrophysics at University of Bologna taught by Prof. Metcalf
 
 ## Statistical Summary projects
-- ad
+- 
 
 ## Technologies used
 - matplotlib, numpy, pandas, astropy.io
