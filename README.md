@@ -5,7 +5,7 @@
 - ad
 
 ## Technologies used
-- Matplotlib, numpy, pandas, astropy.io
+- matplotlib, numpy, pandas, astropy.io
   
 ## Screenshots of Plots generated
 
