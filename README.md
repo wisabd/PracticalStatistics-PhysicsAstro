@@ -10,6 +10,13 @@
 <p align="left">
   <img width="242" alt="Screenshot 2025-02-24 125343" src="https://github.com/user-attachments/assets/477f9de0-35ef-4e60-9c25-755e5f143d97" />
 </p>
+- For the photometric redshift tutorial the dataset is as following:
+| Column Name              | Description |
+|--------------------------|-------------|
+| `id`                     | Unique identifier for the galaxy |
+| `spectroscopic redshift` | Measured redshift (used as the target variable) |
+| `fluxes (ugriz)`         | Observed flux values in **five photometric bands** (u, g, r, i, z) |
+| `magnitudes (ugriz)`     | Corresponding magnitudes in the **same five bands** |
 
 ## Technologies used
 - matplotlib, numpy, pandas, astropy.io
