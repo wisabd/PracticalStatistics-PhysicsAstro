@@ -5,6 +5,8 @@
 - Bayesian parameter estimation: Bayesian parameter estimation is a statistical method that uses Bayes' theorem to update the probability of a hypothesis (e.g., the strength and width of a spectral line) as more evidence (e.g., observational data) becomes available
 - 
 
+## Datasets used
+
 ## Technologies used
 - matplotlib, numpy, pandas, astropy.io
   
