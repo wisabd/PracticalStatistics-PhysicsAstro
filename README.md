@@ -21,7 +21,7 @@
 
 - Bayesian parameter estimation to measure the strength and width of a spectral line. Wavelength is on the x-axis(Represents the position in the spectrum, typically in angstroms (Å) or nanometers (nm)). Flux is on the y-axis(The observed intensity of light at each wavelength). Sigma is used as the error bars for the flux (The standard deviation (uncertainty) of the flux measurement at each wavelength).
 <p align="left>
-  <img width="227" alt="image" src="https://github.com/user-attachments/assets/71d0f73e-2da4-47e5-a55a-03b9cd8a7b65" />
+  <img width="227" alt="image" src="https://github.com/user-attachments/assets/cc8d8ea8-1a05-4d90-8bf6-b9d2c112af69" />
 </p>
 
 
