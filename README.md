@@ -24,7 +24,7 @@
   <img width="227" alt="image" src="https://github.com/user-attachments/assets/cc8d8ea8-1a05-4d90-8bf6-b9d2c112af69" />
 </p>
 
-
+These are the 3 datasets used.
 
 ## Technologies used
 - matplotlib, numpy, pandas, astropy.io
