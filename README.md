@@ -19,7 +19,7 @@
 | `fluxes (ugriz)`         | Observed flux values in **five photometric bands** (u, g, r, i, z) |
 | `magnitudes (ugriz)`     | Corresponding magnitudes in the **same five bands** |
 
-- Bayesian parameter estimation to measure the strength and width of a spectral line. Wavelength is on the x-axis(Represents the position in the spectrum, typically in angstroms (Å) or nanometers (nm)). Flux is on the y-axis(The observed intensity of light at each wavelength). Sigma is used as the error bars for the flux (The standard deviation (uncertainty) of the flux measurement at each wavelength).
+- For Bayesian parameter estimation to measure the strength and width of a spectral line task, the data is in  tut_03_data.csv. There are three columns: wavelength, flux and sigma. Sigma is the known standard deviation of the flux in each pixel. Spectrum has been plotted using matplotlib.pyplot.errorbar() 
 <p align="left>
   <img width="227" alt="image" src="https://github.com/user-attachments/assets/cc8d8ea8-1a05-4d90-8bf6-b9d2c112af69" />
 </p>
