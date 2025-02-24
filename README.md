@@ -2,6 +2,7 @@
 - These are tutorial projects from the graduate course Practical Statistics for Physics and Astrophysics at University of Bologna taught by Prof. Metcalf
 
 ## Statistical Summary projects
+- Bayesian parameter estimation: Bayesian parameter estimation is a statistical method that uses Bayes' theorem to update the probability of a hypothesis (e.g., the strength and width of a spectral line) as more evidence (e.g., observational data) becomes available
 - 
 
 ## Technologies used
