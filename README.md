@@ -7,8 +7,9 @@
 
 ## Datasets used
 - For linear regression task, the dataset in this tutorial is stored in a FITS (Flexible Image Transport System) file named k_nmf_derived.newdefault.fits. The dataset contains template spectra, which are rest-frame galaxy spectra used for comparison. These templates represent different types of galaxies or stellar populations.
+<p align="left">
   <img width="242" alt="Screenshot 2025-02-24 125343" src="https://github.com/user-attachments/assets/477f9de0-35ef-4e60-9c25-755e5f143d97" />
-
+</p>
 
 ## Technologies used
 - matplotlib, numpy, pandas, astropy.io
