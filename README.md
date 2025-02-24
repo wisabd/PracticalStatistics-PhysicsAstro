@@ -7,9 +7,8 @@
 
 ## Datasets used
 - For linear regression task, the dataset in this tutorial is stored in a FITS (Flexible Image Transport System) file named k_nmf_derived.newdefault.fits. The dataset contains template spectra, which are rest-frame galaxy spectra used for comparison. These templates represent different types of galaxies or stellar populations.
-<p align="left">
-  <img width="242" alt="Screenshot 2025-02-24 125343" src="https://github.com/user-attachments/assets/477f9de0-35ef-4e60-9c25-755e5f143d97" />
-</p>
+
+
 - For the photometric redshift tutorial the dataset is as following:
 
 | Column Name              | Description |
@@ -20,11 +19,15 @@
 | `magnitudes (ugriz)`     | Corresponding magnitudes in the **same five bands** |
 
 - For Bayesian parameter estimation to measure the strength and width of a spectral line task, the data is in  tut_03_data.csv. There are three columns: wavelength, flux and sigma. Sigma is the known standard deviation of the flux in each pixel. Spectrum has been plotted using matplotlib.pyplot.errorbar() 
-<p align="left>
+
+
+These are the 3 datasets used
+
+<p align="left">
+  <img width="242" alt="Screenshot 2025-02-24 125343" src="https://github.com/user-attachments/assets/477f9de0-35ef-4e60-9c25-755e5f143d97" />
+  <img width="244" alt="image" src="https://github.com/user-attachments/assets/ab765e24-574a-4747-823f-56dceb4849ab" />
   <img width="227" alt="image" src="https://github.com/user-attachments/assets/cc8d8ea8-1a05-4d90-8bf6-b9d2c112af69" />
 </p>
-
-These are the 3 datasets used.
 
 ## Technologies used
 - matplotlib, numpy, pandas, astropy.io
