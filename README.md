@@ -1,6 +1,8 @@
 ## Description
 - These are tutorial projects from the graduate course Practical Statistics for Physics and Astrophysics at University of Bologna taught by Prof. Metcalf
 
+## Problems to be solved
+
 ## Background for projects 
 - Task 1: To measure the strength and width of a spectral line task using Bayesian parameter estimation.  A spectral line is a dark or bright line in an otherwise uniform and continuous spectrum, resulting from the emission or absorption of light at specific wavelengths by atoms, molecules, or ions. Spectral lines are key features in spectroscopy and are used to study the physical properties of astronomical objects, such as their composition, temperature, density, and velocity. Whereas bayesian parameter estimation is a statistical method that uses Bayes' theorem to update the probability of a hypothesis (e.g., the strength and width of a spectral line) as more evidence (e.g., observational data) becomes available. Bayesian appraoch involves:
 Defining a model: A mathematical function that describes the spectral line (e.g., a Gaussian profile for the line and a polynomial for the continuum).
