@@ -3,13 +3,38 @@
 
 ## Problems to be solved
 Tutorial1: Central Limit Theorem
-Tutorial2: Estimate the covariance matrix and find principle components of some data.
-Tutorial3: Measure the strength and width of a spectral line using a Bayesian method.
-Tutorial4: Determine the spectrographic redshift of a galaxy.
-Tutorial5: To estimate the errors in a statistic.
-Tutorial6: Make and test some linear models for estimated distance modulus μ(z), for Type Ia supernovae (SNe Ia), a key observable in cosmology that relates redshift (z) to the luminosity distance (dL)
-Tutorial7: To builds models to predict galaxy redshifts from their photometry in 5 bands.
-Tutorial8: Construct a Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler and apply it to Type Ia supernova data
+
+
+# Tutorial2: Estimate the covariance matrix and find principle components of some data.
+- Dataset: A pandas dataframe with 5 columns
+- Results: <img width="248" alt="image" src="https://github.com/user-attachments/assets/0e36c9d3-2432-4aca-ba23-f98a57d87817" />
+    <img width="270" alt="image" src="https://github.com/user-attachments/assets/64c9e31a-c306-4055-b174-dc14db7c810d" />
+
+
+  
+# Tutorial3: Measure the strength and width of a spectral line using a Bayesian method.
+- Dataset
+- Results
+  
+# Tutorial4: Determine the spectrographic redshift of a galaxy. To fit a local spectrum with templates using a linear regression and least-squares before trying to estimate the redshift of a redshifted spectrum.
+- Dataset
+- Results
+
+# Tutorial5: To estimate the errors in a statistic.
+-Dataset
+-Results
+
+# Tutorial6: Make and test some linear models for estimated distance modulus μ(z), for Type Ia supernovae (SNe Ia), a key observable in cosmology that relates redshift (z) to the luminosity distance (dL)
+-Dataset
+-Results
+
+# Tutorial7: To builds models to predict galaxy redshifts from their photometry in 5 bands.
+-Dataset
+-Results
+
+# Tutorial8: Construct a Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler and apply it to Type Ia supernova data
+-Dataset
+-Results
 
 ## Background for projects 
 - Task 1: To measure the strength and width of a spectral line task using Bayesian parameter estimation.  A spectral line is a dark or bright line in an otherwise uniform and continuous spectrum, resulting from the emission or absorption of light at specific wavelengths by atoms, molecules, or ions. Spectral lines are key features in spectroscopy and are used to study the physical properties of astronomical objects, such as their composition, temperature, density, and velocity. Whereas bayesian parameter estimation is a statistical method that uses Bayes' theorem to update the probability of a hypothesis (e.g., the strength and width of a spectral line) as more evidence (e.g., observational data) becomes available. Bayesian appraoch involves:
