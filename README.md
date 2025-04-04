@@ -2,7 +2,7 @@
 - These are tutorial projects from the graduate course Practical Statistics for Physics and Astrophysics at University of Bologna taught by Prof. Metcalf
 
 ## Problems to be solved
-Tutorial1: Central Limit Theorem
+Tutorial1: Central Limit Theorem7
 
 
 # Tutorial2: Estimate the covariance matrix and find principle components of some data.
@@ -10,68 +10,39 @@ Tutorial1: Central Limit Theorem
 - Results: <img width="248" alt="image" src="https://github.com/user-attachments/assets/0e36c9d3-2432-4aca-ba23-f98a57d87817" />
     <img width="270" alt="image" src="https://github.com/user-attachments/assets/64c9e31a-c306-4055-b174-dc14db7c810d" />
 
-
   
 # Tutorial3: Measure the strength and width of a spectral line using a Bayesian method.
-- Dataset
-- Results
+- Dataset:  file tut_03_data.csv. There are three columns: wavelength, flux and sigma. Sigma is the known standard deviation of the flux in each pixel. 
+- Results: <img width="326" alt="image" src="https://github.com/user-attachments/assets/1b7d719d-a7d9-4404-ab54-83dccd6c4ed3" />  <img width="295" alt="image" src="https://github.com/user-attachments/assets/48d30bd3-8512-4ffe-80f3-adfb3849aa1e" />
+
+
   
 # Tutorial4: Determine the spectrographic redshift of a galaxy. To fit a local spectrum with templates using a linear regression and least-squares before trying to estimate the redshift of a redshifted spectrum.
-- Dataset
-- Results
+- Dataset:  File localspectrum2.csv contains both the wavelengths and the fluxes of each pixel. 
+- Results  <img width="273" alt="image" src="https://github.com/user-attachments/assets/1ab3f5be-0d10-422a-8ece-c2d22dbbcec3" />
+
 
 # Tutorial5: To estimate the errors in a statistic.
--Dataset
--Results
+-Dataset: There is noise in the luminosity measurements and we do not know how it is distributed. Read in the luminosity data from the file luminosities.csv
+-Results: <img width="287" alt="image" src="https://github.com/user-attachments/assets/d638fb74-11c5-4da5-99dc-27b51f9a8168" />
+
 
 # Tutorial6: Make and test some linear models for estimated distance modulus μ(z), for Type Ia supernovae (SNe Ia), a key observable in cosmology that relates redshift (z) to the luminosity distance (dL)
--Dataset
--Results
+-Dataset: Data obtained is from the Supernova Cosmology Project at: http://supernova.lbl.gov/union/descriptions.html#Magvsz     <img width="307" alt="image" src="https://github.com/user-attachments/assets/7d9a1567-5fa9-45f0-b032-c9e40de5cd29" />
+
+-Results:  <img width="612" alt="image" src="https://github.com/user-attachments/assets/4c52c4dd-e6fb-4b74-9e3d-85ba247985be" />
+
 
 # Tutorial7: To builds models to predict galaxy redshifts from their photometry in 5 bands.
--Dataset
--Results
+-Dataset:  file reduced_galaxy_data.fits. This file contains a small subset of data from the Slone Digital Sky Survey. The columns in the fits table are: id number, the measured spectroscopic redshift, the fluxes in five bands (ugriz), and the magnitudes in the same five bands.
+-Results: <img width="278" alt="image" src="https://github.com/user-attachments/assets/731061ac-d9e2-402b-b4c3-b52f8f8e786e" />
+
 
 # Tutorial8: Construct a Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler and apply it to Type Ia supernova data
--Dataset
--Results
-
-## Background for projects 
-- Task 1: To measure the strength and width of a spectral line task using Bayesian parameter estimation.  A spectral line is a dark or bright line in an otherwise uniform and continuous spectrum, resulting from the emission or absorption of light at specific wavelengths by atoms, molecules, or ions. Spectral lines are key features in spectroscopy and are used to study the physical properties of astronomical objects, such as their composition, temperature, density, and velocity. Whereas bayesian parameter estimation is a statistical method that uses Bayes' theorem to update the probability of a hypothesis (e.g., the strength and width of a spectral line) as more evidence (e.g., observational data) becomes available. Bayesian appraoch involves:
-Defining a model: A mathematical function that describes the spectral line (e.g., a Gaussian profile for the line and a polynomial for the continuum).
-
-Incorporating prior knowledge: Using prior information about the parameters (e.g., the expected wavelength of the line, the range of possible strengths, etc.).
-
-Fitting the data: Using the flux and sigma values to find the most likely parameters of the model, given the data and the priors.
-
-Estimating uncertainties: Providing a range of possible values for the parameters, along with their probabilities
-
-- Task 2: Linear Regression
-- Task 3: Photometric redshift
-
-## Datasets used
-- For linear regression task, the dataset in this tutorial is stored in a FITS (Flexible Image Transport System) file named k_nmf_derived.newdefault.fits. The dataset contains template spectra, which are rest-frame galaxy spectra used for comparison. These templates represent different types of galaxies or stellar populations.
+-Dataset: supernova data from SCPUnion2.1_mu_vs_z.txt
+-Results: <img width="334" alt="image" src="https://github.com/user-attachments/assets/7aca6520-db57-49a5-a571-4ff8d4b0df85" /> <img width="278" alt="image" src="https://github.com/user-attachments/assets/95c38fee-b579-4805-ad3f-3372df65eadf" />
 
 
-- For the photometric redshift tutorial the dataset is as following:
-
-| Column Name              | Description |
-|--------------------------|-------------|
-| `id`                     | Unique identifier for the galaxy |
-| `spectroscopic redshift` | Measured redshift (used as the target variable) |
-| `fluxes (ugriz)`         | Observed flux values in **five photometric bands** (u, g, r, i, z) |
-| `magnitudes (ugriz)`     | Corresponding magnitudes in the **same five bands** |
-
-- For Bayesian parameter estimation to measure the strength and width of a spectral line task, the data is in  tut_03_data.csv. There are three columns: wavelength, flux and sigma. Sigma is the known standard deviation of the flux in each pixel. Spectrum has been plotted using matplotlib.pyplot.errorbar() 
-
-
-These are the 3 datasets used
-
-<p align="left">
-  <img width="242" alt="Screenshot 2025-02-24 125343" src="https://github.com/user-attachments/assets/477f9de0-35ef-4e60-9c25-755e5f143d97" />
-  <img width="244" alt="image" src="https://github.com/user-attachments/assets/ab765e24-574a-4747-823f-56dceb4849ab" />
-  <img width="227" alt="image" src="https://github.com/user-attachments/assets/cc8d8ea8-1a05-4d90-8bf6-b9d2c112af69" />
-</p>
 
 ## Technologies used
 - matplotlib, numpy, pandas, astropy.io
