@@ -2,7 +2,7 @@
 - These are tutorial projects from the graduate course Practical Statistics for Physics and Astrophysics at University of Bologna taught by Prof. Metcalf
 
 ## Problems to be solved
-Tutorial1: Central Limit Theorem7
+# Tutorial1: Central Limit Theorem
 
 
 # Tutorial2: Estimate the covariance matrix and find principle components of some data.
